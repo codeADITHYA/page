@@ -205,9 +205,9 @@ window.onload = function() {
 	audio.volume = 0.6;
   }  // Set up an array of favicon URLs
 const faviconUrls = [
-	"/image-trail/css/download-1.png",
-	"/image-trail/css/download-2.png",
-	"/image-trail/css/download-3.png"
+	"/page/image-trail/css/download-1.png",
+	"/page/image-trail/css/download-2.png",
+	"/page/image-trail/css/download-3.png"
   ];
   
   let index = 0;
