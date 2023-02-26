@@ -203,7 +203,7 @@ window.onload = function() {
 	var audio = document.getElementById("audio");
 	audio.play();
 	audio.volume = 0.6;
-  }  /// Set up an array of favicon URLs
+  }  // Set up an array of favicon URLs
 const faviconUrls = [
 	"/page/image-trail/css/download-1.png",
 	"/page/image-trail/css/download-2.png",
