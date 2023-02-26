@@ -203,4 +203,21 @@ window.onload = function() {
 	var audio = document.getElementById("audio");
 	audio.play();
 	audio.volume = 0.6;
+  }  // Set up an array of favicon URLs
+const faviconUrls = [
+	"/image-trail/css/download-1.png",
+	"/image-trail/css/download-2.png",
+	"/image-trail/css/download-3.png"
+  ];
+  
+  let index = 0;
+  
+  // Set up a function to change the favicon
+  function changeFavicon() {
+	const favicon = document.querySelector('link[rel="icon"]');
+	favicon.href = faviconUrls[index];
+	index = (index + 1) % faviconUrls.length;
   }
+  
+  // Call the function every 2 seconds
+  setInterval(changeFavicon, 1200);
